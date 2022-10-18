@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Card_GameApp: App {
+   
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+            NavigationView{
+            FirstView()
         }
+            .accentColor(.black)
+    }
     }
 }
